@@ -15,7 +15,6 @@ setup(
     packages=find_packages(),  
     install_requires=[
         "bleak>=0.13.0",  
-        "tkinter",  
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
