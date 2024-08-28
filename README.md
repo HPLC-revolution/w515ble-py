@@ -13,20 +13,20 @@
 **Experiment Setup**: Define and execute complex experiments with multiple stages, including ramp-up and ramp-down of pump rates and constant pump rates.
 **Graphical User Interface (GUI)**: Provides real-time monitoring of pump parameters and easy control of the pump.
 
-Installation
+# Installation
 You can install `w515ble-py` using pip:
 
 ```bash
 pip install w515ble-py
 
-Getting Started
+# Getting Started
 Importing the Package
 First, you need to import the necessary components from the package:
 from w515_ble_device import w515_BLEDevice
 from w515_experiment import run_experiment, create_experiment
 from w515_gui import w515_App
 
-Connecting to the Pump
+# Connecting to the Pump
 You need to know the MAC address of your Virginia Analytical module installed in your Waters 515 pump. This came with the packing materials of the pump or the DIY kit. Replace "C3:04:D7:5E:6F:E4" with your pump's MAC address.
 
 ble_device = w515_BLEDevice("C3:04:D7:5E:6F:E4")
