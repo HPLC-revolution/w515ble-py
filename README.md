@@ -35,7 +35,7 @@ from w515_gui import w515_App
 
 ### Connecting to the Pump
 
-You need to know the MAC address of your Virginia Analytical module installed in your Waters 515 pump. This came with the packing materials of the pump or the DIY kit. Replace `"C3:04:D7:5E:6F:E4"` with your pump's MAC address.
+You need to know the MAC address of the conversion module installed in your Waters 515 pump. This came with the packing materials of the pump or the DIY kit. Replace `"C3:04:D7:5E:6F:E4"` with your pump's MAC address.
 
 ```python
 ble_device = w515_BLEDevice("C3:04:D7:5E:6F:E4")
