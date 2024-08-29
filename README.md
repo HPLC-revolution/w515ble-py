@@ -3,7 +3,7 @@
 
 ## Overview
 
-`w515ble-py` is a Python package designed to provide seamless control over a Waters 515 HPLC pump using proprietary hardware developed by Virginia Analytical. The pump modification gives users control over key functions of the HPLC pump such as continuous monitoring of the pump back pressure, control of its pump rates, and front panel button functions using Bluetooth Low Energy (BLE). This effectively converts a manual pump into a fully programmable gradient HPLC pump. This package offers a robust and user-friendly interface to interact wirelessly with the Virginia Analytical pump controller, allowing users to send button press commands, adjust pump rates, and set up complex experiments involving the combination of rate ramps and static pump rates. The package also includes a graphical user interface (GUI) for easy real-time control and monitoring.
+`w515ble-py` is a Python package designed to provide wireless Bluetooth control over a Waters 515 HPLC pump using proprietary hardware developed by Virginia Analytical. The pump modification gives users control over key functions of the HPLC pump such as continuous monitoring of the pump back pressure, control of its pump rates, and front panel button functions. This effectively converts a manual isocratic pump into a fully programmable gradient HPLC pump. This package offers a robust and user-friendly interface to interact wirelessly with the Virginia Analytical pump controller, allowing users to send button press commands, adjust pump rates, and set up complex experiments involving the combination of rate ramps and static pump rates. The package also includes an example graphical user interface (GUI) for easy real-time control and monitoring.
 
 ## Features
 
