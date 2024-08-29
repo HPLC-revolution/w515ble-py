@@ -43,7 +43,7 @@ ble_device = w515_BLEDevice("C3:04:D7:5E:6F:E4")
 
 ### Running the GUI
 
-To launch the graphical user interface, run the following script:
+To launch the example graphical user interface provided in this package, run the following script:
 
 ```python
 import tkinter as tk
