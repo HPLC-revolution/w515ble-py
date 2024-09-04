@@ -100,7 +100,7 @@ Here's an example of sending data using a BLE software tool:
 
 ## Troubleshooting BLE Communication
 
-If you encounter any issues while communicating with the pump controller via BLE, you can connect the hardware to a PC using a USB-C cable. By opening a serial monitor (such as the one included in the Arduino IDE) set to a baud rate of 9600, you can receive debug messages directly from the hardware. These messages provide valuable insights into the device's internal state and actions.
+If you encounter any issues while communicating with the pump controller via BLE, you can connect the hardware to a PC using a USB-C cable. To do this, remove the four screws that secure the case top to the pump base, carefully lift this up and away from the pump. The controller board is near the rear of the case, and is connected with enough ribbon cable that it can be safely moved to make a connection to its' USB-C port. By opening a serial monitor (such as the one included in the Arduino IDE) set to a baud rate of 9600, you can receive debug messages directly from the hardware. These messages provide valuable insights into the device's internal state and actions.
 
 ### Summary of Serial Print Statements
 
