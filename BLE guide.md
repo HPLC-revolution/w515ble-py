@@ -2,7 +2,7 @@
 
 ## Hardware Overview
 
-The controller hardware is powered by a Nordic nRF52840 chip and designed to interface with an HPLC pump system via BLE (Bluetooth Low Energy). It simulates button presses on the pump, reads the pressure transducer, and monitors the motor function. Below is a description of the key BLE characteristics and their configuration.
+The controller hardware is powered by a Nordic nRF52840 chip and designed to interface with a Waters 515 HPLC pump system via BLE (Bluetooth Low Energy). It simulates button presses on the 515 pump, reads the pressure transducer, and monitors the motor function. Below is a description of the key BLE characteristics and their configuration.
 
 ### BLE UUIDs and Characteristics
 
