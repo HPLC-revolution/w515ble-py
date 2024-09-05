@@ -60,6 +60,7 @@ To control the pump and send commands to the controller, you can write to the fo
 ### Button Press Command Table
 
 To simulate button presses on the HPLC pump, send a 2-byte command to the **Button Press Characteristic** (`000055A8-0000-1000-8000-00805F9B34FB`).
+
 <img src="https://raw.githubusercontent.com/HPLC-revolution/w515ble-py/main/images/w515_button_panel.jpg" alt="Alt text" width="600" height="200" />
 
 | Function         | Byte 1 | Byte 2 | Description                              |
