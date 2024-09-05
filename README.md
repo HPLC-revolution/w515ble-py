@@ -61,6 +61,8 @@ if __name__ == "__main__":
 
 #### Sending Button Press Commands
 
+<img src="https://raw.githubusercontent.com/HPLC-revolution/w515ble-py/main/images/w515_button_panel.jpg" alt="Alt text" width="600" height="200" />
+
 You can send predefined button press commands to the pump:
 
 ```python
