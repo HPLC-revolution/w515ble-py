@@ -1,5 +1,5 @@
-# version 0.1.0, by Mark Tapsak
-# visit virginiaanalytical.com to purchase a pump converstion kit 
+# version 0.1.1, by Mark Tapsak
+# visit mtapsak@hotmail.com to purchase a pump converstion kit 
 
 import tkinter as tk
 from w515_ble_device import w515_BLEDevice
