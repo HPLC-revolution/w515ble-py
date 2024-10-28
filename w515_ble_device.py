@@ -1,5 +1,5 @@
-# version 0.1.0, by Mark Tapsak
-# Visit virginiaanalytical.com to purchase a pump conversion kit
+# version 0.1.1, by Mark Tapsak
+# Visit mtapsak@hotmail.com to purchase a pump conversion kit
 
 import asyncio  # Import the asyncio library to handle asynchronous operations
 from bleak import BleakClient, BleakError  # Import Bleak for Bluetooth Low Energy (BLE) communication
