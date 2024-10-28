@@ -1,5 +1,5 @@
-# version 0.1.0, by Mark Tapsak
-# Visit virginiaanalytical.com to purchase a pump conversion kit 
+# version 0.1.1, by Mark Tapsak
+# Visit mtapsak@hotmail.com to purchase a pump conversion kit 
 
 import asyncio
 import tkinter as tk
@@ -413,7 +413,7 @@ def start_tkinter_app():
     Initialize and start the Tkinter application.
     """
     root = tk.Tk()
-    mac_address = "C3:04:D7:5E:6F:E4"  # Updated with the correct MAC address
+    mac_address = "C3:04:D7:5E:6F:E4"  # Update this to your pump's MAC address
     ble_device = w515_app(mac_address)
     app = App(root, ble_device)
     root.mainloop()
