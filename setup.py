@@ -1,5 +1,5 @@
-# version 0.1.0, by Mark Tapsak, created 2024-08-28
-# visit virginiaanalytical.com to purchase a pump converstion kit 
+# version 0.1.1, by Mark Tapsak, created 2024-08-28
+# visit mtapsak@hotmail.com to purchase a pump converstion kit 
 
 from setuptools import setup, find_packages
 
