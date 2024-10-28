@@ -7,7 +7,7 @@ from w515_gui import w515_App
 
 def start_tkinter_app():
     root = tk.Tk()
-    mac_address = "C3:04:D7:5E:6F:E4"  # Updated with the correct MAC address
+    mac_address = "C3:04:D7:5E:6F:E4"  # change to MAC address provided with your pump
     ble_device = w515_BLEDevice(mac_address)
     app = w515_App(root, ble_device)
     root.mainloop()
