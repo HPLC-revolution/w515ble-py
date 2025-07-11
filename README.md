@@ -1,5 +1,5 @@
 
-# w515ble-py
+# w515ble-py (contact us with questions at mtapsak@hotmail.com)
 
 ## Overview
 
